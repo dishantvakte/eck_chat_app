@@ -1,0 +1,34 @@
+{
+  "name": "chatting_app_socketio_new",
+  "version": "1.0.0",
+  "description": "This is real time chat application using socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "npm",
+    "socket.io",
+    "express"
+  ],
+  "author": "Dishant Vakte",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.12",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
+  },
+  "config": {
+    "server": {
+      "port": 8080
+    },
+    "db": {
+      "url": "mongodb://localhost:27017/chatdb"
+    }
+  }
+}
